@@ -96,12 +96,7 @@ gsap.to(".title-hero-section", {
         trigger:".sec",
         start:"start bottom",
         end:"+=300",
-        scrub:2,
-        markers:{
-            startColor:"red",
-            endColor:"red",
-            indent:20
-        } 
+        scrub:2
     },
      y:-20,
     transform:"skew(1deg,-10deg)",
